@@ -1,0 +1,2 @@
+rootProject.name = "AEU-Mobile-HelloWord"
+include ':app'
