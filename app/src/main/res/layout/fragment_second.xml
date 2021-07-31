@@ -25,7 +25,8 @@
                 android:src="@drawable/ic_print"
                 android:padding="10dp"
                 android:background="@android:color/transparent"
-                android:scaleType="centerInside"/>
+                android:scaleType="centerInside"
+                android:onClick="onClick"/>
 
             <ImageButton
                 android:layout_weight="1"
@@ -35,7 +36,8 @@
                 android:src="@drawable/ic_card"
                 android:padding="10dp"
                 android:background="@android:color/transparent"
-                android:scaleType="centerInside"/>
+                android:scaleType="centerInside"
+                android:onClick="onClick"/>
         </LinearLayout>
 
         <LinearLayout
@@ -51,7 +53,8 @@
                 android:src="@drawable/ic_more"
                 android:padding="10dp"
                 android:background="@android:color/transparent"
-                android:scaleType="centerInside"/>
+                android:scaleType="centerInside"
+                android:onClick="onClick"/>
 
             <ImageButton
                 android:layout_weight="1"
@@ -61,7 +64,8 @@
                 android:src="@drawable/ic_db"
                 android:padding="10dp"
                 android:background="@android:color/transparent"
-                android:scaleType="centerInside"/>
+                android:scaleType="centerInside"
+                android:onClick="onClick"/>
         </LinearLayout>
 
         <LinearLayout
@@ -77,7 +81,8 @@
                 android:src="@drawable/ic_user"
                 android:padding="10dp"
                 android:background="@android:color/transparent"
-                android:scaleType="centerInside"/>
+                android:scaleType="centerInside"
+                android:onClick="onClick"/>
 
             <ImageButton
                 android:layout_weight="1"
@@ -87,7 +92,8 @@
                 android:src="@drawable/ic_setting"
                 android:padding="10dp"
                 android:background="@android:color/transparent"
-                android:scaleType="centerInside"/>
+                android:scaleType="centerInside"
+                android:onClick="onClick"/>
         </LinearLayout>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

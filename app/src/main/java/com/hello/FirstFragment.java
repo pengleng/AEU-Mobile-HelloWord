@@ -7,11 +7,12 @@ import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
+import androidx.navigation.NavController;
 import androidx.navigation.fragment.NavHostFragment;
 
 import com.hello.databinding.FragmentFirstBinding;
 
-public class FirstFragment extends Fragment {
+public class FirstFragment extends Fragment implements View.OnClickListener {
 
     private FragmentFirstBinding binding;
 
@@ -36,4 +37,9 @@ public class FirstFragment extends Fragment {
         binding = null;
     }
 
+    @Override
+    public void onClick(View view) {
+        NavController navController = NavHostFragment.findNavController(FirstFragment.this);
+        navController.navigate(R.id.action_FirstFragment_to_SecondFragment);
+    }
 }
